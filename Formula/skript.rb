@@ -1,10 +1,10 @@
 class Skript < Formula
   desc 'A command-line tool to bootstrap scripts according to the normalized script pattern'
   homepage 'https://github.com/soulim/skript'
-  version '0.1.0'
+  version '0.2.0'
   bottle :unneeded
-  url 'https://github.com/soulim/skript/releases/download/v0.1.0/skript_0.1.0.tar.gz'
-  sha256 '0e858942d811971179707e8c5fb6c3edb025f3cf8b8fa30e602c9e22d5db6597'
+  url 'https://github.com/soulim/skript/archive/v0.2.0.tar.gz'
+  sha256 '4dd7cb00d41134469be605d9cd88860095cb1852eeeb8236a9c782b4def80d86'
   # TODO: Enable tests
   # test do
   #   help_text = shell_output("#{bin}/skript --help")
