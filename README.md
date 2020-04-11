@@ -1,5 +1,6 @@
 # homebrew-tools
 
+![Formulae tests](https://github.com/soulim/homebrew-tools/workflows/Formulae%20tests/badge.svg)
 [![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg)](https://github.com/RichardLitt/standard-readme)
 
 A Homebrew tap with self-made tools.
