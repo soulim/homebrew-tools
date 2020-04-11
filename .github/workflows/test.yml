@@ -1,0 +1,20 @@
+name: Formulae tests
+on:
+  push:
+    branches: master
+  pull_request: []
+jobs:
+  test-bot:
+    runs-on: macos-latest
+    steps:
+      - name: Set up git repository
+        uses: actions/checkout@v2
+      - name: Run tests
+        run: |
+          set -e
+          brew update
+          HOMEBREW_TAP_DIR="/usr/local/Homebrew/Library/Taps/soulim/homebrew-tools"
+          mkdir -p "$HOMEBREW_TAP_DIR"
+          rm -rf "$HOMEBREW_TAP_DIR"
+          ln -s "$PWD" "$HOMEBREW_TAP_DIR"
+          brew test-bot
