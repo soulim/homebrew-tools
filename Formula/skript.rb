@@ -13,5 +13,6 @@ class Skript < Formula
 
   def install
     bin.install 'bin/skript'
+    libexec.install Dir['libexec/*']
   end
 end
