@@ -12,7 +12,7 @@ class Skript < Formula
   # end
 
   def install
-  #   bin.install 'bin/skript'
-  #   libexec.install Dir['libexec/*']
+    bin.install 'bin/skript'
+    libexec.install Dir['libexec/*']
   end
 end
