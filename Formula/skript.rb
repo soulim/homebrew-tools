@@ -11,8 +11,8 @@ class Skript < Formula
   #   assert_includes help_text, "Usage:"
   # end
 
-  # def install
+  def install
   #   bin.install 'bin/skript'
   #   libexec.install Dir['libexec/*']
-  # end
+  end
 end
