@@ -8,7 +8,7 @@ A Homebrew tap with self-made tools.
 ## Background
 
 As a software engineer I use little tools to be more productive. This repository
-is a craftsman toolbox containing tools that are built for myself.
+is something like a craftsman toolbox.
 
 **Note:** all these tools are shared as they are. They are opinionated and
 made to serve my personal needs and workflows. However I would be very happy to
