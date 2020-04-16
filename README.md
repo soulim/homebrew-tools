@@ -7,26 +7,26 @@ A Homebrew tap with self-made tools.
 
 ## Install
 
-```ShellSession
->_ brew tap soulim/tools
+```shell
+brew tap soulim/tools
 ```
 
 ## Usage
 
-```ShellSession
->_ brew install soulim/tools/<formula>
+```shell
+brew install soulim/tools/<formula>
 ```
 
 or when the tap is installed already:
 
-```ShellSession
->_ brew install <formula>
+```shell
+brew install <formula>
 ```
 
 or install via URL (which will not receive updates):
 
-```ShellSession
->_ brew install https://raw.githubusercontent.com/soulim/homebrew-tools/master/Formula/<formula>.rb
+```shell
+brew install https://raw.githubusercontent.com/soulim/homebrew-tools/master/Formula/<formula>.rb
 ```
 
 ## Contributing
