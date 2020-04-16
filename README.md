@@ -42,7 +42,7 @@ brew install https://raw.githubusercontent.com/soulim/homebrew-tools/master/Form
 ## What tools are included?
 
 - [`skript`](https://github.com/soulim/skript/) - a command-line tool to
-  bootstrap scripts according to the normalized script pattern.
+  bootstrap scripts according to [the normalized script pattern](https://github.blog/2015-06-30-scripts-to-rule-them-all/).
 
 ## Contributing
 
