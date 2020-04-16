@@ -13,7 +13,7 @@ is a craftsman toolbox containing tools that are built for myself.
 **Note:** all these tools are shared as they are. They are opinionated and
 made to serve my personal needs and workflows. However I would be very happy to
 know that some of them work for you or at least inspire to build your
-own tools.
+own toolset.
 
 ## Install
 
@@ -38,6 +38,11 @@ or install via URL (which will not receive updates):
 ```shell
 brew install https://raw.githubusercontent.com/soulim/homebrew-tools/master/Formula/<formula>.rb
 ```
+
+## What tools are included?
+
+- [`skript`](https://github.com/soulim/skript/) - a command-line tool to
+  bootstrap scripts according to the normalized script pattern.
 
 ## Contributing
 
